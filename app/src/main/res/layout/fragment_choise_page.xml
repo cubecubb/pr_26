@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".choise_page">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp">
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1dp"
+                android:src="@drawable/menu2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="140dp"
+                android:fontFamily="@font/red_rose_light"
+                android:text="Кофейня “Бодрость”"
+                android:textColor="#2E2D2D"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/red_rose_light"
+            android:text="Завтрак"
+            android:textColor="#2E2D2D"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/red_rose_light"
+            android:text="Выбери одну категорию"
+            android:textColor="#4D4242"
+            android:textSize="14sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp">
+            <Button
+                android:id="@+id/btnCoffee"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:drawableTop="@drawable/comfe"
+                android:text="Кофе"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:textColor="#4D4242"
+                android:backgroundTint="@color/white"/>
+            <Button
+                android:id="@+id/btnCake"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:drawableTop="@drawable/cak"
+                android:text="Сладости"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="left"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:textColor="#4D4242"
+                android:backgroundTint="@color/white"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp">
+            <Button
+                android:id="@+id/btnTea"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:drawableTop="@drawable/lime"
+                android:text="Чай"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:textColor="#4D4242"
+                android:backgroundTint="@color/white"/>
+            <Button
+                android:id="@+id/btnCombo"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:drawableTop="@drawable/egg"
+                android:text="Комбо"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="left"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:textColor="#4D4242"
+                android:backgroundTint="@color/white"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnResult"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#A8CAEA"
+            android:fontFamily="@font/red_rose_light"
+            android:text="Показать результаты"
+            android:textAllCaps="false"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginTop="1dp"
+            android:background="#BBF4E3"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/btnTwitter"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:src="@drawable/twee" />
+
+            <ImageButton
+                android:id="@+id/btnFacebook"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/facbok" />
+
+            <ImageButton
+                android:id="@+id/btnWhatsapp"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/wsu" />
+
+            <ImageButton
+                android:id="@+id/btnInstagram"
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:layout_marginLeft="18dp"
+                android:src="@drawable/insta" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
